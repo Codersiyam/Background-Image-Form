@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(image/image.jpg) no-repeat center;
+    background-size: cover;
+    padding: 20px;
+}
+.container{
+    width: 500px;
+    max-width: 100%;
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+}
+.logo {
+    margin-bottom: 25px;
+}
+.logo i{
+    width: 50px;
+    height: 50px;
+    background: #0e9e1a;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+}
+.text{
+    margin-bottom: 15px;
+    color: #0e9e1a;
+}
+.fomr_itams{
+    margin-bottom: 15px;
+}
+.form_info{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid silver;
+    outline: none;
+    color: #000;
+    border-radius: 10px;
+}
+.form_info::placeholder{
+    color: #6d6a6a;
+}
+.form_info:focus{
+border: 2px solid #00ffff;
+}
+.form_button{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.sign_btn{
+    padding: 10px 50px;
+    color: #fff;
+    background: #0e9e1a;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    transition: all 0.5s ease-in-out;
+}
+.sign_btn:hover{
+    background: #13bd21;
+    cursor: pointer;
+}
+.form_link{
+    color: rgb(65, 62, 62);
+}
+.login_link{
+    margin-left: 5px;
+    color: #13bd21;
+    text-decoration: none;
+}
